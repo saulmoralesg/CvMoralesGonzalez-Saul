@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta charset="utf-8">
+	<title>CV Morales Gonzalez Saul</title>
+	<base href="Multimedia/">
+</head>
+<body>
+	<section id="Cuerpo" >
+		<header>
+			<article id="cabeza" style="background-color: white;" style="align-content: all;">
+			<img src="Perfil.jpg" id="mifoto" title="MiFoto">
+			<h2>Morales Gonzalez Saul</h2>
+			<h2>Ing. en Informatica</h2>
+			</article>
+			<nav id="Menu">
+				<!--<ul>
+					<li><a href="#">Datos Personales</a></li>
+					<li><a href="#">Breve Descripcion</a></li>
+					<li><a href="#">Historial Profesional</a></li>
+					<li><a href="#">Informacion Academica</a></li>
+					<li><a href="#">Habilidades</a></li>
+					<li><a href="#">Intereses Personales</a></li>
+				</ul>-->
+			</nav>
+		</header>
+		<br>
+		<aside>
+			<article id="Datos">
+				<h2>Datos Personales</h2>
+				<ol type="disc">
+					<li>Telefono: 55 2329 0435</li>
+					<li>Direccion: Calle Nicolas Bravo M4 Lt2 Casa 32 <br> Los heores Ecatepec III Secc Ecatepec de Morelos <br>Estado de Mexico, Mexico</li>
+					<li>Correo: SaulMoralesGlez@outlook.com</li>
+					<li>Fecha de Nacimiento: 18/abril/1999</li>
+				</ol>
+			</article>
+		</aside>
+		<br>
+		<article id="Descripcion">
+			<h2>DescripcionBreve</h2>
+			<p>Presento un video con mi descripcion breve de mi curriculum</p>
+			<video src="videoCV.mp4" width="640" height="480" controls="">
+			</video>
+		</article>
+		<br>
+		<article id="Profesion">
+			<h2>Hisorial Profecional</h2>
+			<div id="Experiencia1">
+				<h3>Nombre de la empresa 1</h3>
+				<p>Tareas Realizadas:</p>
+				<ol type="decimal">
+					<li>---</li>
+					<li>---</li>
+					<li>---</li>
+				</ol>
+			</div>
+			<div id="Experiencia2">
+				<h3>Nombre de la empresa2</h3>
+				<p>Tareas Realizadas</p>
+				<ol type="decimal">
+					<li>---</li>
+					<li>---</li>
+					<li>---</li>
+				</ol>
+			</div>
+		</article>
+		<br>
+		<article id="Academico">
+			<h2>InformacionAcademica</h2>
+			<ol type="disc">
+				<li>Escuela: Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales y Administrativas IPN (UPIICSA)</li>
+				<p>Año 2022 Ingenieria en Informatica</p>
+				<a href="http://cmmi.org.mx/solicitudes/w_Titulo.aspx">Titulo Profesional</a>
+				<li>Curso de Realidad Virtual UdemyAcademy</li>
+				<p>Febrero 2021</p>
+			</ol>
+		</article>
+		<br>
+		<article id="Intereses">
+			<h2>Mis Intereses Personales</h2>
+			<audio src="Intereses.m4a" id="MisIntereses" controls=""></audio>
+		</article>
+		<br>
+		<article id="Habilidades">
+			<h2>Habilidades Personales</h2>
+			<table>
+				<caption>Tabla de Habilidades</caption>
+				<thead>
+					<tr>
+						<th>Sociales</th>
+						<th>Cognitivas</th>
+						<th>Manuales</th>
+					</tr>					
+				</thead>
+				<tbody>
+					<tr>
+						<td>Habilidad:A1</td>
+						<td>Habilidad:B1</td>
+						<td>Habilidad:C1</td>
+					</tr>
+					<tr>
+						<td>Habilidad:A2</td>
+						<td>Habilidad:B2</td>
+						<td>Habilidad:C2</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th>Grupo1</th>
+						<th>Grupo2</th>
+						<th>Grupo3</th>
+					</tr>
+				</tfoot>
+			</table>
+		</article>
+		<br>
+		<div id="Piedepagina">
+			<footer>
+				Derechos reservado &copy; 2021 <br>
+				Diseñado por: Saul Morales Gonzalez <br>
+				Email: gemelo.saul@hotmail.com <br>
+			</footer>
+		</div>
+
+	</section>
+
+	<address>
+		<h3>Informacion de Contacto</h3>
+		<p>
+			<ul type="disc">
+				<li>Email:gemelo.saul@hotmail.com</li>
+				<li>Telefono: 55 2329 0435</li>
+				<li>LosHeroes III Ecatepec de morelos, Estado de Mexico</li>
+			</ul>
+			<p>Si desea contactarme inicia sesion</p>
+			<form>
+				<p>Usuario: <input type="text" name="Usuario"></p><!--Input_text-->
+				<p>Contraseña: <input type="password" name="pass"></p><!--Input_password-->
+				<p><input type="submit" value="EnviarDatos"></p><!--Input_submit-->
+			</form>
+			<form>
+				<p>Encuentras algun error ortografico</p>
+				<input type="radio" name="error" value="Errorsi"> si<br><!--Input_radio-->
+    			<input type="radio" name="error" value="errorno"> no<br>
+    			<input type="radio" name="error" value="otroerror">otro <br>	
+				<input type="text" placeholder="Escribe el error" name="error_ort">
+				<input type="submit" name="enviar respuesta" value="Enviar respuesta">
+			</form>
+			<form>
+				<p>¿Te interesa formar parte?  Deja tu correo</p>
+				<input type="email" name="direccionemail" placeholder="Ej.: usuario@servidor.com"><!--Input_email-->
+   				<input type="submit" value="Enviar">
+			</form>
+			<form>
+				<p>input checkbox</p>
+				<input type="checkbox" name="eleccion" value="Opcion">Opcion1<br>
+				<input type="checkbox" name="eleccion2" value="Opcion">Opcion2<br>
+				<input type="checkbox" name="eleccion3" value="Opcion">Opcion3<br>
+				<p><input type="button" value="No hace Nada!"></p><!--Input_button porlo general abre otro programa-->
+			</form>
+			<form>
+  				<p>Fecha esperada: <input type="date" name="fechaesperada"> <input type="submit" value="Enviar datos"></p>
+			</form>
+			<form>
+				<datalist></datalist>
+			</form>
+		</p>
+	</address>
+</body>
+</html>
